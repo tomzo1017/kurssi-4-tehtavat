@@ -7,7 +7,7 @@ const mongoose = require('mongoose')
 const blogsRouter = require('./controllers/bloglists')
 
 const mongoUrl = 
-if(process.env.NODE_ENV !== 'production') {
+if (process.env.NODE_ENV !== 'production') {
   require('dotenv').config()
 }
 
