@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+content-type: application/json
+
+
+{
+  "title": "Tommi33sn Bl1ogi",
+  "author": "Tommi Hautaviita",
+  "url": "tommi.fi",
+  "likes": 900
+} 
